@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    
 }
 body{
     display: flex;
@@ -11,7 +13,7 @@ body{
     justify-content: center;
     min-height: 100vh;
     padding: 0 10px;
-    background-color: #9dbdcca2;
+    background-image: url(../Screenshot\ from\ 2023-09-16\ 18-07-25.png);
     background-attachment: fixed;
     background-size: 100% 100%;
 }

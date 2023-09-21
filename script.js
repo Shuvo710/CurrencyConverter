@@ -60,9 +60,8 @@ function getExchangeRate() {
         amount.value = "1";
         amountVal = 1;
     }
-
+    
     exchangeRateTxt.innerText = "Get exchange...";
-    const myTimeout = setTimeout(myGreeting, 1000);
     let url = `https://v6.exchangerate-api.com/v6/91ebf634e2a5e41b418eb79b/latest/${fromCurrency.value}`;
     fetch(url).then(response => response.json()).then(result => {
         let exchangeRate = result.conversion_rates[toCurrency.value];
