@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 10px;
+    background-color: #9dbdcca2;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.conteinar{
+    width: 300px;
+    height: 350px;
+    margin-top: -95px;
+    font-size: smaller;
+    border-radius: 5%;
+    background: #f0c9b756;
+    border: 2px solid rgba(155, 176, 238, 0.425);
+    box-shadow: 10px #afddf3;
+    box-shadow: 5px snow #ccc8c8;
+}
+.conteinar header{
+    text-align: center;
+    font-size: 22px;
+}
+.conteinar .amount{
+    font-size: 18px;
+}
+.conteinar form{
+    margin: 10px 10px 20px 10px;
+}
+form :where(input, select, button){
+    width: 100%;
+    outline: none;
+    font-size: 18px;
+}
+form p{
+    margin-bottom: 2px;
+    font-size: 18px;
+}
+form input{
+    border: 2px solid #636060;
+    border-radius: 3px;
+    text-align: center;
+    margin-bottom: 20px;
+    height: 30px;
+    background-color: #78daf32d;
+}
+form input:focus{
+    border-color: rgb(101, 173, 240);
+    background-color: rgba(151, 85, 41, 0.534);
+}
+form .drop-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.drop-list .selact-box{
+    display: flex;
+    height: 35px;
+    width: 120px;
+    border-radius: 5px;
+    align-items: center;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+}
+.selact-box select{
+    width: 80px;
+    border: 2px solid hsla(180, 1%, 65%, 0.562);
+    background-color: #e27d5f3b;
+    text-align: center;
+    border-radius: 2px;
+}
+.selact-box select:hover {
+    border: .5px solid #61cce74d;
+    border-radius: 5%;
+
+}
+.selact-box select::-webkit-scrollbar{
+    width: 8px;
+}
+.selact-box select::-webkit-scrollbar-track{
+    background-color: #3835e488;
+}
+.selact-box select::-webkit-scrollbar-thumb{
+    background-color: #636060;
+    border-radius: 2px;
+    border-right: 2px solid #0f1314;
+}
+.selact-box option{
+    background: transparent;
+}
+.selact-box img{
+    max-width: 35px;
+    padding-left: 2px;
+}
+.drop-list .icon{
+    cursor: pointer;
+}
+form button{
+    background-color: rgba(247, 98, 39, 0.473);
+    border: 1px solid #999;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+form .temp{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    -webkit-text-fill-color: #f12323c5;
+    font-size: larger;
+}
+.temp .exchanger-rate{
+    font-size: 18px;
+    margin-top: 10px;
+}
