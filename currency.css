@@ -27,6 +27,7 @@ body{
     border: 2px solid rgba(155, 176, 238, 0.425);
     box-shadow: 10px #afddf3;
     box-shadow: 5px snow #ccc8c8;
+    dropback-filter: blur(15px);
 }
 .conteinar header{
     text-align: center;
